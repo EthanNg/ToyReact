@@ -1,0 +1,10 @@
+ToyReact
+
+Babel:
+* presets、plugins：【区别】presets包含多个plugins
+* @babel/plugin-transform-react-jsx：在js中编写html（编译jsx）
+    * 在 jsx中，标签名全部为小写时，默认是原生标签名，存在非小写时，认为是class/function
+
+当jsx中，html标签为自定义非小写时，我们自己写的 createElement 中的 document.createElement( tagName )就不符合了。
+
+
